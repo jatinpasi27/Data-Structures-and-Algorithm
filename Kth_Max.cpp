@@ -6,7 +6,7 @@ int main()
 {
     int k;
     vector<int> vec = {3,6,8,4,9};
-    cout << "Enter the kth value which can be considered as max as well as min value:";
+    cout << "Enter the kth value :";
     cin >> k;
     int Kthmax = INT_MIN;
     for (int i = 0; i < k; i++)
